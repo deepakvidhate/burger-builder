@@ -4,7 +4,7 @@ import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
     //This could be functional component, doesn't have to be class component
-    componentDidUpdate() {
+    componentWillUpdate() {
         console.log('[OrderSummary.js] componentDidUpdate');
     }
 
